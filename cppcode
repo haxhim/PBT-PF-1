@@ -1,0 +1,699 @@
+
+#include <iostream>
+using namespace std;
+int main ()
+{
+int x;
+ cout << "-----------------------------------------------------------------------------------------------------\n";
+ cout<<"\t\t\t\tWelcome to PERFECT PIZZA\n";
+ cout<<"\n";
+ cout<<"\n";
+ cout << "-----------------------------------------------------------------------------------------------------\n";
+ cout<<"|*******************************************************************************************************|\n";
+ cout<<"\t\t\t\tPIZZA\n";
+ cout<<"|*******************************************************************************************************|\n";
+ //1.Hand Crafted Pizza
+ cout<<"|(1)Hand Crafted Pizza : \n";
+ cout<<"|\t\t-Creamy Crispy Chichken\n";
+ cout<<"|\t\t\t\t|L Hand Crafted RM55.30\n";
+ cout<<"|\t\t\t\t|R Hand Crafted RM41.30\n";
+
+ //Pricing Crispy Chicken Pizza (CCP)
+ double CCPL,CCPR;
+ CCPL = 55.30;
+ CCPR = 41.30;
+
+ cout<<"|\t\t-Creamy Chichken Fiesta\n";
+ cout<<"|\t\t\t\t|L Hand Crafted RM50.90\n";
+ cout<<"|\t\t\t\t|R Hand Crafted RM37.90\n";
+
+ cout<<"|\t\t-Creamy Beef Fiesta\n";
+ cout<<"|\t\t\t\t|L Hand Crafted RM50.90\n";
+ cout<<"|\t\t\t\t|R Hand Crafted RM37.90\n";
+
+ //Pricing Creamy Chicken Fiesta (CCF)
+ double CCBFL,CCBFR;
+ CCBFL = 50.90;
+ CCBFR = 37.90;
+
+//2.Supreme Pizza
+ cout<<"|(2)Supreme Pizza : \n";
+ cout<<"|\t\t-Blazzing Seafood\n";
+
+ cout<<"|\t\t\t\t|L Pan RM52.30\n";
+ cout<<"|\t\t\t\t|L Crakin Thin RM52.30\n";
+ cout<<"|\t\t\t\t|L Cheesy Crust RM55.80\n";
+ cout<<"|\t\t\t\t|L Stuffed Crust RM59.30\n";
+
+ cout<<"|\t\t\t\t|R Pan RM39.30\n";
+ cout<<"|\t\t\t\t|R Crakin Thin RM39.30\n";
+ cout<<"|\t\t\t\t|R Cheesy Crust RM41.80\n";
+ cout<<"|\t\t\t\t|R Stuffed Crust RM44.30\n";
+
+ cout<<"|\t\t\t\t|P Pan RM16.90\n";
+ cout<<"|\t\t\t\t|P Cheesy Crust RM18.40\n";
+ cout<<"|\t\t\t\t|P Stuffed Crust RM19.90\n";
+
+ cout<<"|\t\t\t\t|Add More Cheese L:RM3.50 R:RM2.50 P:RM1.50\n";
+ cout<<"|\t\t\t\t|\n";
+
+ cout<<"|\t\t-Chicken Supreme\n";
+
+ cout<<"|\t\t\t\t|L Pan RM52.30\n";
+ cout<<"|\t\t\t\t|L Crakin Thin RM52.30\n";
+ cout<<"|\t\t\t\t|L Cheesy Crust RM55.80\n";
+ cout<<"|\t\t\t\t|L Stuffed Crust RM59.30\n";
+
+ cout<<"|\t\t\t\t|R Pan RM39.30\n";
+ cout<<"|\t\t\t\t|R Crakin Thin RM39.30\n";
+ cout<<"|\t\t\t\t|R Cheesy Crust RM41.80\n";
+ cout<<"|\t\t\t\t|R Stuffed Crust RM44.30\n";
+
+ cout<<"|\t\t\t\t|P Pan RM16.90\n";
+ cout<<"|\t\t\t\t|P Cheesy Crust RM18.40\n";
+ cout<<"|\t\t\t\t|P Stuffed Crust RM19.90\n";
+
+  cout<<"|\t\t-Hawaiian Supreme\n";
+
+ cout<<"|\t\t\t\t|L Pan RM52.30\n";
+ cout<<"|\t\t\t\t|L Crakin Thin RM52.30\n";
+ cout<<"|\t\t\t\t|L Cheesy Crust RM55.80\n";
+ cout<<"|\t\t\t\t|L Stuffed Crust RM59.30\n";
+
+ cout<<"|\t\t\t\t|R Pan RM39.30\n";
+ cout<<"|\t\t\t\t|R Crakin Thin RM39.30\n";
+ cout<<"|\t\t\t\t|R Cheesy Crust RM41.80\n";
+ cout<<"|\t\t\t\t|R Stuffed Crust RM44.30\n";
+
+ cout<<"|\t\t\t\t|P Pan RM16.90\n";
+ cout<<"|\t\t\t\t|P Cheesy Crust RM18.40\n";
+ cout<<"|\t\t\t\t|P Stuffed Crust RM19.90\n";
+
+//Pricing Supreme Pizza (SP)
+double SPLP,SPLCT,SPLCC,SPLSC;
+SPLP = 52.30;
+SPLCT = 52.30;
+SPLCC = 55.80;
+SPLSC = 59.30;
+double SPRP,SPRCT,SPRCC,SPRSC;
+SPRP = 39.30;
+SPRCT = 39.30; 
+SPRCC = 41.80;
+SPRSC = 44.30;
+double SPPP,SPPCC,SPPSC;
+SPPP = 16.90;
+SPPCC = 18.40;
+SPPSC = 19.90;
+
+//3.Favorite Pizza :
+ cout<<"|(3)Favorite Pizza : \n";
+ cout<<"|\t\t-Aloha Chicken\n";
+
+ cout<<"|\t\t\t\t|L Pan RM47.90\n";
+ cout<<"|\t\t\t\t|L Crakin Thin RM47.90\n";
+ cout<<"|\t\t\t\t|L Cheesy Crust RM51.40\n";
+ cout<<"|\t\t\t\t|L Stuffed Crust RM54.90\n";
+
+ cout<<"|\t\t\t\t|R Pan RM35.90\n";
+ cout<<"|\t\t\t\t|R Crakin Thin RM35.90\n";
+ cout<<"|\t\t\t\t|R Cheesy Crust RM38.40\n";
+ cout<<"|\t\t\t\t|R Stuffed Crust RM40.90\n";
+
+ cout<<"|\t\t\t\t|P Pan RM14.50\n";
+ cout<<"|\t\t\t\t|P Cheesy Crust RM16.00\n";
+ cout<<"|\t\t\t\t|P Stuffed Crust RM17.50\n";
+
+ cout<<"|\t\t\t\t|Add More Cheese L:RM3.50 R:RM2.50 P:RM1.50\n";
+
+ cout<<"|\t\t-Beef Pepperoni\n";
+
+ cout<<"|\t\t\t\t|L Pan RM47.90\n";
+ cout<<"|\t\t\t\t|L Crakin Thin RM47.90\n";
+ cout<<"|\t\t\t\t|L Cheesy Crust RM51.40\n";
+ cout<<"|\t\t\t\t|L Stuffed Crust RM54.90\n";
+
+ cout<<"|\t\t\t\t|R Pan RM35.90\n";
+ cout<<"|\t\t\t\t|R Crakin Thin RM35.90\n";
+ cout<<"|\t\t\t\t|R Cheesy Crust RM38.40\n";
+ cout<<"|\t\t\t\t|R Stuffed Crust RM40.90\n";
+
+ cout<<"|\t\t\t\t|P Pan RM14.50\n";
+ cout<<"|\t\t\t\t|P Cheesy Crust RM16.00\n";
+ cout<<"|\t\t\t\t|P Stuffed Crust RM17.50\n";
+
+ cout<<"|\t\t\t\t|Add More Cheese L:RM3.50 R:RM2.50 P:RM1.50\n";
+
+//PRICING Favorite Pizza (FP)
+double FPLP,FPLCT,FPLCC,FPLSC;
+FPLP = 47.90;
+FPLCT = 47.90;
+FPLCC = 51.40;
+FPLSC = 54.90;
+double FPRP,FPRCT,FPRCC,FPRSC;
+FPRP = 35.90;
+FPRCT = 35.90; 
+FPRCC = 38.40;
+FPRSC = 40.90;
+double FPPP,FPPCC,FPPSC;
+FPPP = 14.50;
+FPPCC = 16.00;
+FPPSC = 17.50;
+
+ //CHEZZEE LELEH :}
+ string chx; //To accept Y or N from user
+ double CL,CR,CP;
+ CL = 3.5;
+ CR = 2.5;
+ CP = 1.5;
+
+ cout << "----------------------------------------------------------------------------------------------------------\n";
+
+//Loop & Basic Value
+int loop,mainopt,tquantity;
+double price,fprice;
+tquantity=0;
+fprice=0;
+string loopkey;
+loop=0;
+while (loop<1)
+{
+    //Selector Section
+
+
+cout << "Please Enter number 1,2 or 3 for your choice of PIZZA : ";
+cin >> mainopt ;
+cout<<"\n";
+
+//HCP deffers between case example : HCP , BHCP , CHCP (How Chosse Pizza (HCP))
+//HCPS deffers between case example : HCPS , BHCPS , CHCPS (How Chosse Pizza Settings (HCPS))
+
+switch (mainopt)
+{
+case 1 :
+    
+    int HCP,HCPS; 
+    cout << "Please enter the code for your choice of Hand Crafted Pizza : \n";
+    cout << "(1)Creamy Crispy Chicken : \n";
+    cout << "(2)Creamy Chicken Fiesta : \n";
+    cout << "(3)Creamy Beef Fiesta : \n";
+    cin >> HCP;
+
+
+    switch (HCP)
+    {
+    case 1:
+        cout <<"Select your size and crust : \n";
+        cout <<"LARGE------------------------------------------------------------------------\n";
+         cout<<"(1)Hand Crafted RM55.30\n";
+        cout <<"REGULAR------------------------------------------------------------------------\n";
+         cout<<"(2)Hand Crafted RM41.30\n";
+        cin >>HCPS;
+        switch (HCPS)
+        {
+        case 1:
+            price = CCPL;
+            break;
+        case 2:
+            price = CCPR;
+            break;
+        
+        default:
+            break;
+        }
+        break;
+    case 2:
+        cout <<"Select your size and crust : \n";
+        cout <<"LARGE------------------------------------------------------------------------\n";
+         cout<<"(1)Hand Crafted RM50.90\n";
+        cout <<"REGULAR------------------------------------------------------------------------\n";
+         cout<<"(2)Hand Crafted RM37.90\n";
+        cin >>HCPS;
+        switch (HCPS)
+        {
+        case 1:
+            price = CCBFL;
+            break;
+        case 2:
+            price = CCBFR;
+            break;
+        
+        default:
+            break;
+        }
+        break;
+        break;
+    case 3:
+        cout <<"Select your size and crust : \n";
+        cout <<"LARGE------------------------------------------------------------------------\n";
+         cout<<"(1)Hand Crafted RM50.90\n";
+        cout <<"REGULAR------------------------------------------------------------------------\n";
+         cout<<"(2)Hand Crafted RM37.90\n";
+        cin >>HCPS;
+        switch (HCPS)
+        {
+        case 1:
+            price = CCBFL;
+            break;
+        case 2:
+            price = CCBFR;
+            break;
+        
+        default:
+            break;
+        }
+        break;
+        break;
+    }
+    break;
+
+case 2 :
+    int BHCP,BHCPS;
+    cout << "Please enter the code for your choice of Hand Crafted Pizza : \n";
+    cout << "(1)Blazzing Seafood : \n";
+    cout << "(2)Chicken Supreme : \n";
+    cout << "(3)Beef Supreme : \n";
+    cin >> BHCP;
+    
+    switch (BHCP)
+    {
+    case 1 :
+        cout <<"Select your size and crust : \n";
+        cout <<"LARGE------------------------------------------------------------------------\n";
+         cout<<"(1)Pan : 52.30\n";
+         cout<<"(2)Crakin Thin : 52.30\n";
+         cout<<"(3)Cheesy Crust : 55.80\n";
+         cout<<"(4)Stuffed Crust : 59.30\n";
+        cout <<"REGULAR------------------------------------------------------------------------\n";
+         cout<<"(5)Pan : 39.30\n";
+         cout<<"(6)Crakin Thin : 39.30\n";
+         cout<<"(7)Cheesy Crust : 41.80\n";
+         cout<<"(8)Stuffed Crust : 44.30\n";
+        cout <<"PERSONAL------------------------------------------------------------------------\n";
+         cout<<"(9)Pan : 16.90\n";
+         cout<<"(10)Crakin Thin : 18.40\n";
+         cout<<"(11)Cheesy Crust : 19.90\n";
+        cin>>BHCPS;
+        switch (BHCPS)
+        {
+        case 1:
+            price = SPLP;
+            break;
+        case 2:
+            price =SPLCT;
+            break;
+        case 3:
+            price =SPLCC;
+            break;
+        case 4:
+            price =SPLSC;
+            break;
+        case 5:
+            price =SPRP;
+            break;
+        case 6:
+            price =SPRCT;
+            break;
+        case 7:
+            price =SPRCC;
+            break;
+        case 8:
+            price =SPRSC;
+            break;
+        case 9:
+            price = SPPP;
+            break;
+        case 10:
+            price = SPPCC;
+            break;
+        case 11:
+            price = SPPSC;
+            break;
+        
+        default:
+            break;
+        }
+        cout<<"TAMBAH CHEESE LAGI SYUR!!!!!!!!\n";
+        cout<<"Add Cheese for Large Pizza : RM3.50\n";
+        cout<<"Add Cheese for Regular Pizza : RM2.50\n";
+        cout<<"Add Cheese for Personal Pizza : RM1.50\n";
+        cout<<"Enter Y if you want to addchesse and N if not : \n";
+        cin>>chx;
+
+        if (chx=="Y")
+        {
+            if (BHCPS<5)
+            {
+                price = price + CL;
+            }
+            else if (BHCPS<9)
+            {
+                price = price + CR;
+            }
+            else if (BHCPS<12)
+            {
+                price = price + CP;
+            }
+            
+        }
+
+         break;
+    case 2 :
+    
+        cout <<"Select your size and crust : \n";
+        cout <<"LARGE------------------------------------------------------------------------\n";
+         cout<<"(1)Pan : 52.30\n";
+         cout<<"(2)Crakin Thin : 52.30\n";
+         cout<<"(3)Cheesy Crust : 55.80\n";
+         cout<<"(4)Stuffed Crust : 59.30\n";
+        cout <<"REGULAR------------------------------------------------------------------------\n";
+         cout<<"(5)Pan : 39.30\n";
+         cout<<"(6)Crakin Thin : 39.30\n";
+         cout<<"(7)Cheesy Crust : 41.80\n";
+         cout<<"(8)Stuffed Crust : 44.30\n";
+        cout <<"PERSONAL------------------------------------------------------------------------\n";
+         cout<<"(9)Pan : 16.90\n";
+         cout<<"(10)Crakin Thin : 18.40\n";
+         cout<<"(11)Cheesy Crust : 19.90\n";
+        cin>>BHCPS;
+        switch (BHCPS)
+        {
+        case 1:
+            price = SPLP;
+            break;
+        case 2:
+            price =SPLCT;
+            break;
+        case 3:
+            price =SPLCC;
+            break;
+        case 4:
+            price =SPLSC;
+            break;
+        case 5:
+            price =SPRP;
+            break;
+        case 6:
+            price =SPRCT;
+            break;
+        case 7:
+            price =SPRCC;
+            break;
+        case 8:
+            price =SPRSC;
+            break;
+        case 9:
+            price = SPPP;
+            break;
+        case 10:
+            price = SPPCC;
+            break;
+        case 11:
+            price = SPPSC;
+            break;
+        
+        default:
+            break;
+        }
+        break;
+    
+    case 3 :
+    
+        cout <<"Select your size and crust : \n";
+        cout <<"LARGE------------------------------------------------------------------------\n";
+         cout<<"(1)Pan : 52.30\n";
+         cout<<"(2)Crakin Thin : 52.30\n";
+         cout<<"(3)Cheesy Crust : 55.80\n";
+         cout<<"(4)Stuffed Crust : 59.30\n";
+        cout <<"REGULAR------------------------------------------------------------------------\n";
+         cout<<"(5)Pan : 39.30\n";
+         cout<<"(6)Crakin Thin : 39.30\n";
+         cout<<"(7)Cheesy Crust : 41.80\n";
+         cout<<"(8)Stuffed Crust : 44.30\n";
+        cout <<"PERSONAL------------------------------------------------------------------------\n";
+         cout<<"(9)Pan : 16.90\n";
+         cout<<"(10)Crakin Thin : 18.40\n";
+         cout<<"(11)Cheesy Crust : 19.90\n";
+        cin>>BHCPS;
+        switch (BHCPS)
+        {
+        case 1:
+            price = SPLP;
+            break;
+        case 2:
+            price =SPLCT;
+            break;
+        case 3:
+            price =SPLCC;
+            break;
+        case 4:
+            price =SPLSC;
+            break;
+        case 5:
+            price =SPRP;
+            break;
+        case 6:
+            price =SPRCT;
+            break;
+        case 7:
+            price =SPRCC;
+            break;
+        case 8:
+            price =SPRSC;
+            break;
+        case 9:
+            price = SPPP;
+            break;
+        case 10:
+            price = SPPCC;
+            break;
+        case 11:
+            price = SPPSC;
+            break;
+        
+        default:
+            break;
+        }
+        break;
+    
+    default:
+        break;
+    }
+    break;
+
+case 3 :
+ int CHCP,CHCPS;
+    cout << "Please enter the code for your choice of Hand Crafted Pizza : \n";
+    cout << "(1)Aloha Chicken : \n";
+    cout << "(2)Beef Pepperoni : \n";
+    cin >> CHCP;
+    
+ switch (CHCP)
+ {
+ case 1:
+     cout <<"Select your size and crust : \n";
+        cout <<"LARGE------------------------------------------------------------------------\n";
+         cout<<"(1)Pan : 47.90\n";
+         cout<<"(2)Crakin Thin : 47.90\n";
+         cout<<"(3)Cheesy Crust : 51.40\n";
+         cout<<"(4)Stuffed Crust : 54.90\n";
+        cout <<"REGULAR------------------------------------------------------------------------\n";
+         cout<<"(5)Pan : 35.90\n";
+         cout<<"(6)Crakin Thin : 35.90\n";
+         cout<<"(7)Cheesy Crust : 38.40\n";
+         cout<<"(8)Stuffed Crust : 40.90\n";
+        cout <<"PERSONAL------------------------------------------------------------------------\n";
+         cout<<"(9)Pan : 14.50\n";
+         cout<<"(10)Crakin Thin : 16.00\n";
+         cout<<"(11)Cheesy Crust : 17.50\n";
+        cin>>CHCPS;
+        switch (CHCPS)
+        {
+        case 1:
+            price = FPLP;
+            break;
+        case 2:
+            price =FPLCT;
+            break;
+        case 3:
+            price =FPLCC;
+            break;
+        case 4:
+            price =FPLSC;
+            break;
+        case 5:
+            price =FPRP;
+            break;
+        case 6:
+            price =FPRCT;
+            break;
+        case 7:
+            price =FPRCC;
+            break;
+        case 8:
+            price =FPRSC;
+            break;
+        case 9:
+            price = FPPP;
+            break;
+        case 10:
+            price = FPPCC;
+            break;
+        case 11:
+            price = FPPSC;
+            break;
+        
+        default:
+            break;
+        }
+        cout<<"TAMBAH CHEESE LAGI SYUR!!!!!!!!\n";
+        cout<<"Add Cheese for Large Pizza : RM3.50\n";
+        cout<<"Add Cheese for Regular Pizza : RM2.50\n";
+        cout<<"Add Cheese for Personal Pizza : RM1.50\n";
+        cout<<"Enter Y if you want to addchesse and N if not : \n";
+        cin>>chx;
+
+        if (chx=="Y")
+        {
+            if (CHCPS<5)
+            {
+                price = price + CL;
+            }
+            else if (CHCPS<9)
+            {
+                price = price + CR;
+            }
+            else if (CHCPS<12)
+            {
+                price = price + CP;
+            }
+            
+        }
+
+    break;
+ case 2:
+     cout <<"Select your size and crust : \n";
+        cout <<"LARGE------------------------------------------------------------------------\n";
+         cout<<"(1)Pan : 47.90\n";
+         cout<<"(2)Crakin Thin : 47.90\n";
+         cout<<"(3)Cheesy Crust : 51.40\n";
+         cout<<"(4)Stuffed Crust : 54.90\n";
+        cout <<"REGULAR------------------------------------------------------------------------\n";
+         cout<<"(5)Pan : 35.90\n";
+         cout<<"(6)Crakin Thin : 35.90\n";
+         cout<<"(7)Cheesy Crust : 38.40\n";
+         cout<<"(8)Stuffed Crust : 40.90\n";
+        cout <<"PERSONAL------------------------------------------------------------------------\n";
+         cout<<"(9)Pan : 14.50\n";
+         cout<<"(10)Crakin Thin : 16.00\n";
+         cout<<"(11)Cheesy Crust : 17.50\n";
+        cin>>CHCPS;
+        switch (CHCPS)
+        {
+        case 1:
+            price = FPLP;
+            break;
+        case 2:
+            price =FPLCT;
+            break;
+        case 3:
+            price =FPLCC;
+            break;
+        case 4:
+            price =FPLSC;
+            break;
+        case 5:
+            price =FPRP;
+            break;
+        case 6:
+            price =FPRCT;
+            break;
+        case 7:
+            price =FPRCC;
+            break;
+        case 8:
+            price =FPRSC;
+            break;
+        case 9:
+            price = FPPP;
+            break;
+        case 10:
+            price = FPPCC;
+            break;
+        case 11:
+            price = FPPSC;
+            break;
+        
+        default:
+            break;
+        }
+        cout<<"TAMBAH CHEESE LAGI SYUR!!!!!!!!\n";
+        cout<<"Add Cheese for Large Pizza : RM3.50\n";
+        cout<<"Add Cheese for Regular Pizza : RM2.50\n";
+        cout<<"Add Cheese for Personal Pizza : RM1.50\n";
+        cout<<"Enter Y if you want to addchesse and N if not : \n";
+        cin>>chx;
+
+        if (chx=="Y")
+        {
+            if (CHCPS<5)
+            {
+                price = price + CL;
+            }
+            else if (CHCPS<9)
+            {
+                price = price + CR;
+            }
+            else if (CHCPS<12)
+            {
+                price = price + CP;
+            }
+            
+        }
+    break;
+ 
+ default:
+    break;
+ }
+
+default:
+    break;
+}
+// Calculation
+int quantity;
+cout<<"Enter Quantity : \n";
+cin>>quantity;
+price = quantity*price;
+cout<<"Total : "<<price<<endl;
+
+fprice = fprice + price; //Final Price
+tquantity = tquantity + quantity;
+
+
+cout<<"Do you want to order next pizza? If Yes , Enter Y/y\n";
+loop=1;
+cin>>loopkey;
+if ((loopkey=="Y")||(loopkey=="y"))
+{
+    loop--;
+}
+    
+}
+
+
+
+
+cout <<"Total Price for ("<<tquantity<<") pizza : RM"<<fprice<<endl;
+
+cout<<"**************************************************************\n";
+cout<<"\t\t\tTotal Price : RM"<<fprice<<endl;
+double disscount=0;
+if (tquantity>=2)
+{
+    disscount=(fprice*0.2);
+
+}
+cout<<"\t\t\tTotal Price After Discount (If Elidgeble) : RM"<<fprice-disscount<<endl;
+cout<<"**************************************************************\n";
+
+}
+
