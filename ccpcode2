@@ -1,12 +1,4 @@
-// Name : Nur Muhammad Hashim Bin Muhamad Hafiz
-//Matric No. : 01DDT23F1015
-//Class : DDTS2
-//Name : Muhammad Luqmman Nul Hakeem Bin Mohd Shukri
-//Matric No. 01DDT23F1066
-//Class : DDTS2
-//Name : Muhammad Affan Bin Amir Nubhan
-//Matric No. 01DDT23F1100
-//Class : DDTS2
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
