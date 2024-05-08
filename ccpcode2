@@ -1,0 +1,65 @@
+// Name : Nur Muhammad Hashim Bin Muhamad Hafiz
+//Matric No. : 01DDT23F1015
+//Class : DDTS2
+//Name : Muhammad Luqmman Nul Hakeem Bin Mohd Shukri
+//Matric No. 01DDT23F1066
+//Class : DDTS2
+//Name : Muhammad Affan Bin Amir Nubhan
+//Matric No. 01DDT23F1100
+//Class : DDTS2
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+double taxCalculator(double gincome,double savings,double expenses)
+{
+ double taxable=gincome-savings-expenses;
+ double aftertax;
+ if (taxable<10001)
+ {
+    aftertax=taxable;
+ }
+ else if (taxable<20001)
+ {
+    aftertax=taxable*0.1;
+ }
+ else if (taxable<40001)
+ {
+    aftertax=taxable*0.2;
+ }
+ else
+ {
+    aftertax=taxable*0.3;
+ }
+ 
+ return aftertax;
+ 
+}
+
+void display()
+{  
+   string name,id;
+   cout<<"Enter your name : ";
+   cin>>name;
+   cout<<"Enter your id : ";
+   cin>>id;
+   double x,y,z;
+    cout<<"Enter your gross income : RM";
+    cin>>x;
+    cout<<"Enter your total savings : RM";
+    cin>>y;
+    cout<<"Enter your total expenses : RM";
+    cin>>z;
+   double year,monthly;
+   year=taxCalculator(x,y,z);
+   monthly=(taxCalculator(x,y,z)/12);
+   float roundedmonthly=round(monthly*100.0)/100.0;
+   cout<<"Amount tax to be paid per year : RM"<<year<<endl;
+   cout<<"Amount tax to be paid per month : RM"<<roundedmonthly<<endl;
+}
+
+int main()
+{   
+    display();
+    return 0;
+}
